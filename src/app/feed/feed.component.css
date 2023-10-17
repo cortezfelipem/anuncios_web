@@ -1,0 +1,104 @@
+.TOfqM {
+    position: relative;
+    z-index: 4;
+    max-width: 1008px;
+    padding: 0px 6px;
+    margin: 100px auto;
+}
+.jNkffT {
+    box-shadow: rgba(46, 45, 55, 0.12) 0px 1px 2px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background: white;
+}
+.cvxQHv {
+    padding-bottom: 16px;
+    display: flex;
+    gap: 32px;
+}
+.bzLOhf {
+    display: flex;
+    gap: 32px;
+}
+.ecOFWm {
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    line-height: 24px;
+    padding: 6px 0px;
+    transition: all 0.25s ease 0s;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(174, 174, 186);
+}
+.ecOFWm.actived {
+    color: rgb(46, 45, 55);
+    border-color: rgb(225, 17, 56);
+}
+.ecOFWm h1, .ecOFWm h2 {
+    font: inherit;
+    margin-bottom: 0px;
+}
+.jGrTZz {
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    line-height: 24px;
+    padding: 6px 0px;
+    transition: all 0.25s ease 0s;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(117, 116, 129);
+}
+.jguxaM {
+    background-color: rgb(225, 17, 56);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 8px;
+    line-height: 24px;
+    transition: all 0.25s ease 0s;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    width: 280px;
+    height: 56px;
+}
+.bzLOhf {
+    display: flex;
+    gap: 32px;
+}
+.OBQhp {
+    border: 2px solid rgb(236, 237, 242);
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    height: 56px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.frjsEL {
+    font-size: 17px;
+    padding: 11px;
+}
+.bHaIHM {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+.iPPViM {
+    border-radius: 0px 8px 8px 0px;
+    border:none;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
