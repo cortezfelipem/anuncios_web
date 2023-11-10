@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-custom-carousel',
@@ -131,14 +132,17 @@ export class CustomCarouselComponent {
 
     // Add more vehicle objects as needed
   ];
-  noWrapSlides = false;
-  showIndicator = true;
-  carouselOptions = {
-    items: 5,
+
+  customOptions: OwlOptions = {
     loop: true,
+    dots: false,
     nav: true,
-    dots: this.showIndicator,
-  };
+    navText: ['Anterior' ,  'Proximo'],
+    center: true,
+    items: 1,
+    lazyLoad: true
+  }
+
    constructor() { }
 
    ngOnInit(): void {

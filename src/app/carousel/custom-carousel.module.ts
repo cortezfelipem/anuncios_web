@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CustomCarouselComponent } from './custom-carousel.component';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
-import { CarouselComponent, OwlOptions } from 'ngx-owl-carousel-o';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 @NgModule({
   declarations: [
@@ -11,9 +11,9 @@ import { CarouselComponent, OwlOptions } from 'ngx-owl-carousel-o';
   imports: [
     CommonModule,
     // OwlOptions,
-    CarouselModule.forRoot(),
+    CarouselModule,
     // CarouselComponent,
-    
+
   ],
   exports: [
     CustomCarouselComponent
