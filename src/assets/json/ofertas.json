@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "NomeAnimal": "Boi Malhado",
+        "DescricaoAnimal": "Boi da raça Nelore com pelagem malhada. Manso e de excelente genética para reprodução.",
+        "ImagemAnimal": "https://exemplo.com/imagens/bovinos/boi_malhado.jpg",
+        "Preco": 12000.00,
+        "Peso": 600,
+        "Localizacao": "Fazenda Boa Esperança, Estado de São Paulo",
+        "DataNascimento": "2022-03-15",
+        "Categoria": {
+            "id": 1,
+            "NomeRaca": "Nelore",
+            "DescricaoRaca": "O Nelore é uma raça de gado zebu, conhecida pela resistência a climas quentes. Ótima para produção de carne.",
+            "ImagemRaca": "https://exemplo.com/imagens/racas/nelore.jpg",
+            "PrecoMedio": 8000.00
+        }
+    },
+    {
+        "id": 2,
+        "NomeAnimal": "Vaca Leiteira",
+        "DescricaoAnimal": "Vaca da raça Holandesa especializada em produção de leite. Já pariu duas vezes e está em lactação.",
+        "ImagemAnimal": "https://exemplo.com/imagens/bovinos/vaca_leiteira.jpg",
+        "Preco": 15000.00,
+        "Peso": 550,
+        "Localizacao": "Fazenda São João, Estado de Minas Gerais",
+        "DataNascimento": "2019-06-28",
+        "Categoria": {
+            "id": 3,
+            "NomeRaca": "Holandês",
+            "DescricaoRaca": "O Holandês é uma raça leiteira, conhecida por sua alta produção de leite. Excelente para fazendas leiteiras.",
+            "ImagemRaca": "https://exemplo.com/imagens/racas/holandes.jpg",
+            "PrecoMedio": 10000.00
+        }
+    },
+    {
+        "id": 3,
+        "NomeAnimal": "Touro Angus",
+        "DescricaoAnimal": "Touro da raça Angus de linhagem premium. Excelente para melhorar a genética do rebanho.",
+        "ImagemAnimal": "https://exemplo.com/imagens/bovinos/touro_angus.jpg",
+        "Preco": 18000.00,
+        "Peso": 800,
+        "Localizacao": "Fazenda Boa Vista, Estado do Paraná",
+        "DataNascimento": "2020-01-10",
+        "Categoria": {
+            "id": 2,
+            "NomeRaca": "Angus",
+            "DescricaoRaca": "O Angus é uma raça britânica conhecida por sua carne marmorizada e saborosa. Ideal para produção de carne de qualidade.",
+            "ImagemRaca": "https://exemplo.com/imagens/racas/angus.jpg",
+            "PrecoMedio": 12000.00
+        }
+    }
+]

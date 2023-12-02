@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "NomeRaca": "Nelore",
+        "DescricaoRaca": "O Nelore é uma raça de gado zebu, conhecida pela resistência a climas quentes. Ótima para produção de carne.",
+        "ImagemRaca": "https://exemplo.com/imagens/racas/nelore.jpg",
+        "PrecoMedio": 8000.00
+    },
+    {
+        "id": 2,
+        "NomeRaca": "Angus",
+        "DescricaoRaca": "O Angus é uma raça britânica conhecida por sua carne marmorizada e saborosa. Ideal para produção de carne de qualidade.",
+        "ImagemRaca": "https://exemplo.com/imagens/racas/angus.jpg",
+        "PrecoMedio": 12000.00
+    },
+    {
+        "id": 3,
+        "NomeRaca": "Holandês",
+        "DescricaoRaca": "O Holandês é uma raça leiteira, conhecida por sua alta produção de leite. Excelente para fazendas leiteiras.",
+        "ImagemRaca": "https://exemplo.com/imagens/racas/holandes.jpg",
+        "PrecoMedio": 10000.00
+    }
+]
