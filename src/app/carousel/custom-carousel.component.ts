@@ -139,7 +139,7 @@ export class CustomCarouselComponent {
     nav: true,
     navText: ['Anterior' ,  'Proximo'],
     center: true,
-    items: 1,
+    items: 3,
     lazyLoad: true
   }
 
