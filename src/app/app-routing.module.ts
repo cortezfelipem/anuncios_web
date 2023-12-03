@@ -1,14 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MainContainer } from './components/structural/main/main-container.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/feed', pathMatch: 'full' }, // Rota padrão redireciona para "feed"
-  // { path: 'feed', component: FeedComponent }, // Rota para o componente "feed"
-  // Você pode adicionar mais rotas aqui para outros componentes ou páginas da sua aplicação
+  {
+    path: '',
+    loadChildren: () =>
+      import('./components/structural/structural.module').then(
+        (m) => m.StructuralModule
+      ),
+      component: MainContainer
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
