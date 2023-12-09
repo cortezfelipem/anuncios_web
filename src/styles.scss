@@ -1,0 +1,23 @@
+body {
+  background: #0a58ca;
+}
+
+.nav-link>.text-description {
+  color: black;
+  font-weight: bold;
+
+  &:hover,
+  &:active {
+    border-bottom: 2px solid red;
+  }
+}
+
+.form-control:focus {
+  border-color: --bs-border-color;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+
+}
+
+router-outlet+ng-component>.row {
+  --bs-gutter-x: 0;
+}
