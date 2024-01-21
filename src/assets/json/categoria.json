@@ -3,21 +3,56 @@
         "id": 1,
         "NomeRaca": "Nelore",
         "DescricaoRaca": "O Nelore é uma raça de gado zebu, conhecida pela resistência a climas quentes. Ótima para produção de carne.",
-        "ImagemRaca": "https://exemplo.com/imagens/racas/nelore.jpg",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
         "PrecoMedio": 8000.00
     },
     {
         "id": 2,
         "NomeRaca": "Angus",
         "DescricaoRaca": "O Angus é uma raça britânica conhecida por sua carne marmorizada e saborosa. Ideal para produção de carne de qualidade.",
-        "ImagemRaca": "https://exemplo.com/imagens/racas/angus.jpg",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
         "PrecoMedio": 12000.00
     },
     {
         "id": 3,
         "NomeRaca": "Holandês",
         "DescricaoRaca": "O Holandês é uma raça leiteira, conhecida por sua alta produção de leite. Excelente para fazendas leiteiras.",
-        "ImagemRaca": "https://exemplo.com/imagens/racas/holandes.jpg",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
         "PrecoMedio": 10000.00
+    },
+    {
+        "id": 4,
+        "NomeRaca": "Brahman",
+        "DescricaoRaca": "O Brahman teve origem nos EUA e é resultado de cruzamentos entre importantes raças zebuínas, que tiveram início com um gado brasileiro predominantemente Guzerá",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
+        "PrecoMedio": 8700.00
+    },
+    {
+        "id": 5,
+        "NomeRaca": "Brangus",
+        "DescricaoRaca": "O Brangus é uma raça fruto dos cruzamentos entre Brahman e Aberdeen Angus, aprimorados simultaneamente nos EUA, no Brasil, na Austrália e na Argentina.",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
+        "PrecoMedio": 16000.00
+    },
+    {
+        "id": 6,
+        "NomeRaca": "Senepol",
+        "DescricaoRaca": "O Senepol tem uma história recente no Brasil, já que chegou aqui nos anos 2000. Mesmo assim, o país já é referência no melhoramento genético da raça, e a carne tem sido cada vez mais encontrada nos frigoríficos nacionais.",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
+        "PrecoMedio": 18000.00
+    },
+    {
+        "id": 7,
+        "NomeRaca": "Hereford",
+        "DescricaoRaca": "A raça tem origem na Inglaterra, mas os primeiros exemplares chegaram ao Brasil pela Argentina e pelo Uruguai.",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
+        "PrecoMedio": 18000.00
+    },
+    {
+        "id": 8,
+        "NomeRaca": "Caracu",
+        "DescricaoRaca": "O Caracu tem procedência direta de antigas raças de touro ibéricas e portuguesas e está no Brasil desde o período colonial.",
+        "ImagemRaca": "https://estaticos.globoradio.globo.com/fotos/2023/02/c3ac3f75-76e3-459c-8727-50916b306695.jpg.640x360_q75_box-0%2C99%2C1920%2C1178_crop_detail.jpg",
+        "PrecoMedio": 18000.00
     }
 ]

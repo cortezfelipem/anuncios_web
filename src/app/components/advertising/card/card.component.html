@@ -1,6 +1,28 @@
 <div class="card">
-  <a [href]="href" class="card-link">
+  <a [href]="href" class="card-link" *ngIf="simple ;else withBody">
     <img [src]="imageUrl" class="card-img" [height]="height" [width]="width" [alt]="imageAlt" [title]="imageTitle">
     <h3 class="card-category">{{categoryName}}</h3>
   </a>
+  <ng-template #withBody>
+    <owl-carousel-o [options]="options">
+      <ng-template carouselSlide *ngFor="let image of body?.images || images">
+        <a [href]="href" class="card-link">
+          <img [src]="image.imageUrl" [alt]="image.imageAlt" [title]="image.imageTitle" [height]="height"
+            [width]="width" class="card-img">
+        </a>
+      </ng-template>
+    </owl-carousel-o>
+    <div class="card-body flex">
+      <div class="box-header">
+        <h3 class="name">{{body.name}}</h3>
+        <small class="description">{{body.description}}</small>
+      </div>
+      <div class="box-price">
+        {{body?.value || 0 | currency: 'BRL'}}
+      </div>
+    </div>
+    <div class="card-footer">
+      {{body?.cityName}} - {{body?.uf}}
+    </div>
+  </ng-template>
 </div>

@@ -28,5 +28,26 @@
     width: 80%;
     position: absolute;
     z-index: 9;
+
+  }
+
+  &-body.flex {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    min-height: 12rem;
+    >.box-header> {
+      .name {
+        color: black;
+        font-size: 1rem;
+      }
+
+      .description {
+        color: black;
+        font-size: 0.75rem;
+      }
+    }
   }
 }
